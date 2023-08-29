@@ -1,0 +1,154 @@
+/* Regals CSS
+selector{
+    propiedad:"valor";
+}
+*/
+/*@import url('https://fonts.googleapis.com/css2?family=REM:wght@400;700&display=swap');*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #E5E5E5;
+}
+header{
+    position: fixed;
+    z-index: 3;
+    width: 100vw;
+}
+div{
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 336px;
+    margin: 200px 10px 50px 20px;
+    display: inline-block;
+}
+
+.indice1{
+    font-family: Roboto;
+    font-size: 15px;
+    background: #D1891C;
+    padding: 10px 0px 10px 27px;
+    margin: auto;
+}
+.indice2{
+    font-family: Roboto;
+    font-size: 40px;
+    background: #00669F;
+    padding: 20px 0px 20px 27px;
+    margin: auto;   
+}
+main{
+    background: white;
+    height: auto;
+}
+
+.fa-heart{
+    color: red;
+    position: relative;
+    top: -177px;
+    left: -100px;
+    width: 30px;
+    height: 30px;
+}
+
+.FImg{ 
+    width: 300px;
+    height: 193px;
+    top: -192px;
+    position: relative;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.Img{
+    width: 120px;
+    height: 118px;
+    top: -285px;
+    left: 99px; 
+    position: relative;
+    border-radius: 50%;
+}
+article{
+    top: -320px; 
+    position: relative;
+}
+.subtitulo{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 26px;
+}
+p.desc{
+    font-family: Roboto;
+    font-size: 16px;
+    width: 265px;
+    height: 113px;
+    padding-left: 18px;
+    padding-top: 13px;
+}
+.Secboton{
+    width: 127px;
+    height: 48px;
+    background: #00669F;
+    margin-top: 95px;
+}
+.boton{
+
+    color: #F3F3F3;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    padding-top: 14px;
+}
+footer{
+    display: flex;
+    color: #FFF9F9;
+    font-family: Roboto;
+    font-size: 16px;
+    background: #00669F;
+    height: 51px;
+    justify-content: space-between;
+    align-items: center;
+}
+.pie{
+    padding-left: 36vw;
+}
+.pie2{
+    padding-right: 25px;
+    font-weight: 900;
+    font-size: x-large;
+}
+.card{
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25vh;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.simbolo {
+    position: relative;
+    left: 1455px;
+    bottom: 406px;
+    color: #00669F;
+    font-size: 2.5rem;
+}
+@media(max-width:800px){
+    .card{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .pie {
+        padding-left: 0vw;
+
+    }
+}
